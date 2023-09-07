@@ -10,6 +10,6 @@ abstract class Poligono extends FiguraGeometrica {
     }
 
     public function getLunghezza(): float {
-        return $this->larghezza;
+        return $this->altezza;
     }
 }
