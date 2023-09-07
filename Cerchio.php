@@ -27,7 +27,7 @@ class Cerchio extends FiguraGeometrica
 
     function toString(): string
     {
-        $string = 'Cerchio raggio: ';
+        $string = ' Raggio : ';
         $string .=  $this->getRaggio();
         $string .=  '<br>Area : ';
         $string .=  $this->calcolaArea();

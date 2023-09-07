@@ -14,17 +14,6 @@ class Triangolo extends Poligono {
     function calcolaPerimetro(): float {
         return ($this->larghezza *3);
     }
-    function toString(): string
-    {
-        $string = '<br>Triangolo Base : ';
-        $string .= $this->larghezza;
-        $string .= '<br>Triangolo altezza : ';
-        $string .= $this->altezza;
-        $string .= '<br>Area triangolo : ';
-        $string .=  $this->calcolaArea();
-        $string .=  '<br>Perimetro : ';
-        $string .=  $this->calcolaPerimetro();
-        $string .=  '<br>';
-        return $string;
-    }
+
+    
 }

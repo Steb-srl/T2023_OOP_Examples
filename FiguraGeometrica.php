@@ -3,4 +3,6 @@ abstract class FiguraGeometrica {
     abstract protected function calcolaArea(): float;
 
     abstract protected function calcolaPerimetro(): float;
+    
+    abstract protected function toString(): string;
 }

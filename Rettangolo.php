@@ -14,15 +14,4 @@ class Rettangolo extends Poligono {
     function calcolaPerimetro(): float {
         return 2 * ($this->larghezza)+ 2*($this->altezza);
     }
-    function toString(): string
-    {
-        $string = 'Rettangolo ';
-        $string .= $this->larghezza.'x'.$this->altezza . "<br>";
-        $string .= 'Area rettangolo ';
-        $string .=  $this->calcolaArea();
-        $string .=  '<br>Perimetro : ';
-        $string .=  $this->calcolaPerimetro();
-        $string .=  '<br>';
-        return $string;
-    }
 }
