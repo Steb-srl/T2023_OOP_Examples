@@ -3,6 +3,7 @@ require_once('Cerchio.php');
 require_once('Quadrato.php');
 require_once('Rettangolo.php');
 require_once('Triangolo.php');
+require_once('Parallelogramma.php');
 
 $cerchio = new Cerchio(5);
 echo 'Cerchio ';
@@ -44,4 +45,13 @@ echo '<br>';
 $triangolo = new Triangolo(9, 9);
 echo 'Triangolo';
 echo '<br>';
+echo '<br>';
 echo $triangolo->toString();
+echo '<br>';
+echo '<br>';
+
+$parallelogramma = new Parallelogramma(7, 5);
+echo 'Parallelogramma ';
+echo '<br>';
+echo $parallelogramma->toString();
+echo '<br>';
