@@ -15,5 +15,9 @@ class Triangolo extends Poligono {
         return ($this->larghezza *3);
     }
 
+    function __toString(): string
+    {
+        return 'Triangolo<br>' . parent::__toString();
+    }
     
 }

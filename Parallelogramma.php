@@ -12,6 +12,6 @@ class Parallelogramma extends Poligono {
     }
 
     function calcolaPerimetro(): float {
-        return 2 * ($this->larghezza)+ 2*($this->altezza);
+        return 2 * ($this->larghezza + $this->altezza);
     }
 }

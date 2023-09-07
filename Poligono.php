@@ -14,7 +14,7 @@ abstract class Poligono extends FiguraGeometrica {
         return $this->altezza;
     }
 
-    public function toString():string{
+    public function __toString():string{
         $string = "Base : ".$this->larghezza."<br> Altezza : ".$this->altezza;
         $string .= "<br>Area : ".$this->calcolaArea()."<br>Perimetro : ".$this->calcolaPerimetro();
         return $string;

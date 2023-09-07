@@ -1,17 +1,15 @@
 <?php
-require_once('Poligono.php');
+require_once('Rettangolo.php');
 
-class Quadrato extends Poligono {
-    function __construct(float $lato) {
-        $this->larghezza = $lato;
-        $this->altezza = $lato;
+class Quadrato extends Rettangolo
+{
+    function __construct(float $lato)
+    {
+        parent::__construct($lato, $lato);
     }
 
-    function calcolaArea(): float {
-        return $this->larghezza * $this->larghezza;
-    }
-
-    function calcolaPerimetro(): float {
-        return 4 * ($this->larghezza);
+    function __toString(): string
+    {
+        return 'Quadrato<br>' . parent::__toString();
     }
 }

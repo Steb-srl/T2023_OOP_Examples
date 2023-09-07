@@ -24,10 +24,10 @@ class Cerchio extends FiguraGeometrica
     {
         return $this->radius;
     }
-
-    function toString(): string
+    
+    function __toString(): string
     {
-        $string = ' Raggio : ';
+        $string = 'Cerchio<br>Raggio : ';
         $string .=  $this->getRaggio();
         $string .=  '<br>Area : ';
         $string .=  $this->calcolaArea();

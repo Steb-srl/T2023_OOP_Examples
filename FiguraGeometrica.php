@@ -4,5 +4,5 @@ abstract class FiguraGeometrica {
 
     abstract protected function calcolaPerimetro(): float;
     
-    abstract protected function toString(): string;
+    abstract public function __toString(): string;
 }
