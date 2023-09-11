@@ -24,6 +24,7 @@ echo '<br>';
 
 $quadrato = new Quadrato(5);
 echo 'Questo è il mio quadrato fighissimo ' . $quadrato;
+
 echo '<br>';
 echo '<br>';
 
@@ -31,11 +32,13 @@ $rettangolo = new Rettangolo(4, 6);
 echo 'Rettangolo ';
 echo '<br>';
 echo $rettangolo;
+
 echo '<br>';
 echo '<br>';
 
 $triangolo = new Triangolo(9, 9);
 echo $triangolo;
+
 echo '<br>';
 echo '<br>';
 
@@ -43,9 +46,9 @@ $parallelogramma = new Parallelogramma(7, 5);
 echo 'Parallelogramma ';
 echo '<br>';
 echo $parallelogramma;
+
 echo '<br>';
-
-
+echo '<br>';
 
 $new_cerchio = new Cerchio($radius);
 echo $cerchio;

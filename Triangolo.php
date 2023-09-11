@@ -8,16 +8,14 @@ class Triangolo extends Poligono {
     }
 
     function calcolaArea(): float {
-        return ($this->larghezza * $this->altezza)/2;
+        return ($this->larghezza * $this->altezza) / 2;
     }
 
     function calcolaPerimetro(): float {
-        return ($this->larghezza *3);
+        return ($this->larghezza * 3);
     }
 
-    function __toString(): string
-    {
+    function __toString(): string {
         return 'Triangolo<br>' . parent::__toString();
     }
-    
 }
